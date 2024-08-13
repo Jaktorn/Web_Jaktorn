@@ -1,5 +1,5 @@
 <?php 
-    session_start(); // ต้องใส่เครื่องหมาย ; ปิดท้าย
+    session_start(); 
 ?>
 <!DOCTYPE html>
 <html lang="en">

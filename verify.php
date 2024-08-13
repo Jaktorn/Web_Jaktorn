@@ -19,7 +19,7 @@ if ($login === 'admin' && $pwd === 'ad1234') {
 } else {
     $welcomeMessage = "ชื่อบัญชีหรือรหัสผ่านไม่ถูกต้อง";
     header("refresh:3; url=index.php"); // ให้รอ 3 วินาทีแล้วกลับไปหน้า index.php
-    exit();
+    die();
 }
 
 ?>
