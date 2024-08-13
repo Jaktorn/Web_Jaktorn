@@ -1,6 +1,7 @@
 <?php
 session_start();
-
+if(isset($_SESSION['id']))
+    header("location:index.php");
 // กำหนดค่าล็อกอินเบื้องต้น
 $login = $_POST['login'];
 $pwd = $_POST['pwd'];
@@ -11,7 +12,7 @@ if ($login === 'admin' && $pwd === 'ad1234') {
     $_SESSION['username'] = 'admin';
     $_SESSION['role'] = 'admin'; // บทบาท admin
     $welcomeMessage = "ยินดีต้อนรับคุณ ADMIN";
-} elseif ($login !== 'member' && $pwd === 'mem1234') {
+} elseif ($login == 'member' && $pwd === 'mem1234') {
     $_SESSION['id'] = 2;
     $_SESSION['username'] = 'member';
     $_SESSION['role'] = 'member'; // บทบาท member
