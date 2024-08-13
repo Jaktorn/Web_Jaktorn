@@ -21,6 +21,6 @@
 			</td></tr>
 	</table>
 	</form><br>
-	<div align="center"><a href="index.html">กลับไปหน้าหลัก</a></div>	
+	<div align="center"><a href="index.php">กลับไปหน้าหลัก</a></div>	
 </body>
 </html>		
