@@ -8,29 +8,32 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="container mt-4">
+    <div class="container">
         <!-- สีของปุ่ม -->
         <button class="btn btn-primary">Primary</button>
-        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-secondady">Secondary</button>
         <button class="btn btn-success">Success</button>
         <button class="btn btn-danger">Danger</button>
         <button class="btn btn-warning">Warning</button>
         <button class="btn btn-info">Info</button>
         <button class="btn btn-light">Light</button>
         <button class="btn btn-dark">Dark</button>
-
+    </div>
+    <div class="container">
         <!-- ปุ่มแบบ Link -->
-        <button class="btn btn-link">Link</button>
-
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
         <br><br>
+    <div class="container">
         <!-- Button Tag -->
         <a href="#" class="btn btn-primary">Link</a>
-        <button type="button" class="btn btn-primary">Button</button>
-        <input type="button" value="Button" class="btn btn-primary">
-        <input type="submit" value="Submit" class="btn btn-primary">
-        <input type="reset" value="Reset" class="btn btn-primary">   
+        <button type="button" class="btn btn-success">Button</button>
+        <input type="button"class="btn btn-danger" value="Button">
+        <input type="submit"class="btn btn-warning" value="Submit">
+        <input type="reset"class="btn btn-secondary" value="Reset">  
+    </div>
         <br><br>
-
+    <div>
         <!-- Outline Button -->
         <button class="btn btn-outline-primary">Outline Primary</button>
         <button class="btn btn-outline-secondary">Outline Secondary</button>
@@ -40,50 +43,60 @@
         <button class="btn btn-outline-info">Outline Info</button>
         <button class="btn btn-outline-light">Outline Light</button>
         <button class="btn btn-outline-dark">Outline Dark</button>
+    </div>
+ 
         <br><br>
-
+    <div>
         <!-- ขนาดของปุ่ม -->
-        <button class="btn btn-primary btn-lg">Large Button</button>
-        <button class="btn btn-primary btn-sm">Small Button</button>
+        <button class="btn btn-success btn-lg">Large Button</button>
+        <button class="btn btn-success btn-sm">Small Button</button>
+    </div>
+ 
         <br><br>
-
+    <div class="container">
         <!-- Block Button -->
-        <button class="btn btn-primary d-block w-100 mb-2">Block Button</button>
-        <button class="btn btn-primary d-block w-100">Block Button</button>
-
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary">Block Button</button>
+            <button class="btn btn-success">Block Button</button>
+        </div>
+    </div>
         <br><br>
+    <div class="container">
         <!-- Button Group -->
-        <div class="btn-group" role="group" aria-label="Button group">
-            <button type="button" class="btn btn-primary">Button 1</button>
-            <button type="button" class="btn btn-primary">Button 2</button>
-            <button type="button" class="btn btn-primary">Button 3</button>
+        <div class="btn-group">
+            <button class="btn btn-success">Button 1</button>
+            <button class="btn btn-success">Button 2</button>
+            <button class="btn btn-success">Button 3</button>
         </div>
+    </div>
         <br><br>
-
+    <div class="container">
         <!-- Button Vertical Group -->
-        <div class="btn-group-vertical" role="group" aria-label="Vertical button group">
-            <button type="button" class="btn btn-primary">Button 1</button>
-            <button type="button" class="btn btn-primary">Button 2</button>
-            <button type="button" class="btn btn-primary">Button 3</button>
+        <div class="btn-group-vertical">
+            <button class="btn btn-primary">Button 1</button>
+            <button class="btn btn-info">Button 2</button>
+            <button class="btn btn-danger">Button 3</button>
         </div>
+    </div>
         <br><br>
-
+    <div class="container">
         <!-- Dropdown Menu -->
         <div class="btn-group">
-            <button type="button" class="btn btn-primary">Home</button>
-            <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Menu</button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Item 1</a></li>
-                <li><a class="dropdown-item" href="#">Item 2</a></li>
-                <li><a class="dropdown-item" href="#">Item 3</a></li>
-            </ul>
+            <button class="btn btn-primary">Home</button>
+            <button class="btn btn-primary dropdown-toggle">Menu</button>
+            <div class="dropdown-menu">
+                <a href="#" class="dropdown-item">Item 1</a>
+                <a href="#" class="dropdown-item">Item 2</a>
+                <a href="#" class="dropdown-item">Item 3</a>
+            </div>
         </div>
+    </div>
         <br><br>
-
+    <div>
         <!-- Button style -->
-        <button class="btn btn-primary">Regular</button>
-        <button class="btn btn-primary active">Active</button>
-        <button class="btn btn-primary" disabled>Disabled</button>
+        <button class="btn btn-danger">Regular</button>
+        <button class="btn btn-danger active">Active</button>
+        <button class="btn btn-danger disabled">Disabled</button>
     </div>
 </body>
 </html>
